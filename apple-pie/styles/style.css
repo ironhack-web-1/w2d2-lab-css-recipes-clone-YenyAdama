@@ -27,14 +27,16 @@ h1{
     margin: 2.5em 10em 1.5em 10em;
 }
 
-div > img{
-    height:9vh;
-    width:30vw;
+.image-1 > img{
+    width: 20em;
+    height: 3em;
+    
 }
 
-.line{
+.line-1{
     width:60%;
     line:10;
+    
 }
 
 ul{
@@ -60,4 +62,16 @@ ol{
     float: left;
     text-align: justify;
     margin: 0.5em 8.5em 1.5em 8.5em;
+}
+.line-2{
+    width:60%;
+    line:10;
+
+}
+.image-2 > img{
+    margin-top: 1em;
+    width: 20em;
+    height: 4em;
+    margin-right: 1.8em;
+    
 }
