@@ -1,9 +1,63 @@
 /*Some necessary adjustments*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
+}
+header{
+  background-image:url(/french-soup/images/soup.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70vw;
+  height: 75vh;
+  margin: 2% 10% 5% 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+.introduction{
+  display: flex;
+  justify-content: center;
+}
+.img-recipe-info>img{
+  display: flex;
+  justify-content: center;
+  width: 20em;
+  height: 3.3em;
+  margin: auto auto 1em 28em;
+}
+.line{
+  width:35em;
+}
+h3{
+  display: flex;
+  justify-content: center; 
+  margin: 2em 28em 1em 3em;
+}
+.ingredients li::before{
+  display: inline-block;
+  content: '-';
+  margin-right: 0.5rem;
+  line-height: 1.5em; 
+}
+ul{
+  list-style-type: none;
+  margin: 2em 3em 1em 18em;
+}
+.img-cooking-info>img{
+  display: flex;
+  justify-content: center;
+  width: 18em;
+  height: 4em;
+  margin: 1em 3em 1em 30em;
+}
+ol{
+  margin: 2em 3em 3em 18em;
 }

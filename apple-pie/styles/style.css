@@ -1,0 +1,81 @@
+html,
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:70vh;
+    width:70%;
+    margin:0em 4em 2em 12em;
+}
+
+h1{
+    font-weight:500;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#content{
+    margin: 2em 10em 1em 9em;
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+
+.image-1 > img{
+    width: 20em;
+    height: 3em;   
+}
+
+.line{
+    width:50%;
+    margin: 1em auto 1em 22em;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    text-align: justify;
+    margin: 1.5em auto 1.5em 22em;
+    
+}
+
+.ingredients li::before{
+    display: inline-block;
+    content: '-';
+    margin-right: 0.5rem;
+    line-height: 1.5em;
+}
+h3{
+    text-align: left;
+    margin:2em auto 0em 19em;
+}
+
+ol{
+    text-align: justify;
+    margin: 1.5em 20em 1.5em 24em;
+    line-height: 1.3em;
+}
+
+.image-2 >img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 13.5em 15em 2em 33em;
+    width: 20em;
+    height: 4em;
+}
